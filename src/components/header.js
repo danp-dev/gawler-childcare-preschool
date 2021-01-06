@@ -9,6 +9,13 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
+    <nav className="navbar">
+
+      <a className="navbar-item">
+        Contact
+      </a>
+
+    </nav>
     <div
       style={{
         margin: `0 auto`,
