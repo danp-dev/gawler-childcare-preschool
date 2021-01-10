@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-import tempimage from "https://bulma.io/images/placeholders/128x128.png"
+import tempimage from "../images/gatsby-astronaut.png"
 
 const IndexPage = () => (
   <Layout>
@@ -32,7 +32,7 @@ const IndexPage = () => (
                 <div className="column ">
                 <div className="">
                   <h4 className="subtitle is-size-5 is-dosis">Welcome to the</h4>
-                   <h1 className="title is-size-1 is-dosis">Gawler Community Childcare and Preschool</h1> 
+                   <h1 className="title is-size-1 is-dosis">Gawler Community  Childcare and Preschool</h1> 
                 
                 <div className="">
                     
@@ -60,7 +60,69 @@ const IndexPage = () => (
         </div>
     </section>
     
+    <section className="section has-background-info">
+        <div className="container has-text-centered  pb-6 pt-6">
+            
+            <h1 className="title is-size-1">
+                OUR ROOMS
+            </h1>
+            
+            <div className="columns is-centered">
+  <div className="column ">
+      <div className="container has-background-warning pb-3 pt-3">
+      
+      <span className="icon">
+  <i className="fas fa-baby is-large"></i>
+</span>
+      
+      <h1 className="title is-size-4">
+          Infants
+      </h1>
+      </div>
+  </div>
+  <div className="column ">
+    <div className="container has-background-warning pb-3 pt-3">
     
+    <span className="icon">
+<i className="fas fa-baby is-large"></i>
+</span>
+    
+    <h1 className="title is-size-4">
+        Infants
+    </h1>
+    </div>
+</div>
+<div className="column ">
+  <div className="container has-background-warning pb-3 pt-3">
+  
+  <span className="icon">
+<i className="fas fa-baby is-large"></i>
+</span>
+  
+  <h1 className="title is-size-4">
+      Infants
+  </h1>
+  </div>
+</div>
+<div className="column ">
+  <div className="container has-background-warning pb-3 pt-3">
+  
+  <span className="icon">
+<i className="fas fa-baby is-large"></i>
+</span>
+  
+  <h1 className="title is-size-4">
+      Infants
+  </h1>
+  </div>
+</div>
+</div>
+            
+           <a className="button is-primary">Book A Tour</a> 
+        </div>
+        
+        
+    </section>
 
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
