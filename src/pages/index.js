@@ -1,54 +1,67 @@
 import React from "react"
 import { Link } from "gatsby"
 
+
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import tempimage from "https://bulma.io/images/placeholders/128x128.png"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <section className="hero is-primary">
+    
+    <section className="hero is-primary is-medium has-kids-on-hill-bg">
   <div className="hero-body">
+  
     <div className="container has-text-centered">
       <h1 className="title">
-        Gawler Community Childcare and Preschool Centre
+        Medium title
       </h1>
       <h2 className="subtitle">
-        Primary subtitle
+        Medium subtitle
       </h2>
     </div>
   </div>
 </section>
-<section>
-<div className="container">
-<div className="columns">
-<div className="column">
-  <div className="box has-text-centered">
-    <h1 className="title is-5">
-      Welcome to the Gawler Community Childcare and Preschool
-    </h1>
-  </div>
-col1
-</div>
 
-<div className="column">
-  col2
-</div>
-</div>
-</div>
+<section className="section">
+        <div className="container is-primary">
+            <div className ="columns is-vcentered">
+                <div className="column ">
+                <div className="">
+                  <h4 className="subtitle is-size-5 is-dosis">Welcome to the</h4>
+                   <h1 className="title is-size-1 is-dosis">Gawler Community Childcare and Preschool</h1> 
+                
+                <div className="">
+                    
+                    <a className="button is-primary">Book A Tour</a>
+                    
+                    <a className="button is-secondary">Book A Tour</a>
+                    
+                </div>
+                
+                </div>
+                </div>
+                
+                <div className="column has-text-centered">
+                
+                   
+                   <figure className="image is-4by3">
+  <img src={tempimage}></img>
+</figure>
 
-</section>
-<section className="has-background-primary">
-  <div className="container has-background-black">
+                   <h1 className="subtitle ">We aim to create a learning environment where every child is supported</h1> 
+            
+                </div>
+                
+            </div>
+        </div>
+    </section>
     
-    <div className="has-text-centered">
-    <h1 className="title is-3">Our Rooms</h1>
-    <span className="icon">
-  <i className="fas fa-home"></i>
-</span>
-  </div></div>
-</section>
+    
+
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>

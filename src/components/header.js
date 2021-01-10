@@ -9,57 +9,61 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-    <nav className="navbar is-topbar">
+    <nav className="navbar is-topbar has-background-primary">
+      <div className="container">
+        <div className="navbar-start">
+        {siteTitle}
+        </div>
       <div className="navbar-end">
         <p>2 Finch Road Gawler East</p>
+        
+        </div>
       </div>
     </nav>
-    <nav className="navbar">
-
-      <div className="navbar-start">
-      <div className="navbar-menu">
-      <a className="navbar-item">
-        Home
-      </a>
-
-      <a className="navbar-item">
-        About
-      </a>
-
-      <a className="navbar-item">
-        Rooms
-      </a>
-
-      <a className="navbar-item">
-        Contact
-      </a>
-
-      <div className="navbar-item">
-        <a className="button is-primary">Book A Tour
+    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <div className="container">
+  
+    <div id="navbarBasicExample" className="navbar-menu">
+      <div className="menu-is-fullwidth is-uppercase is-size-5 has-text-weight-bold">
+        <a className="navbar-item">
+          Home
         </a>
+  
+        <a className="navbar-item">
+          About
+        </a>
+
+        <a className="navbar-item">
+          Rooms
+        </a>
+
+        <a className="navbar-item">
+          Contact
+        </a>
+
+        <div className="navbar-end">
+          <div className="navbar-item">
+            <div className="buttons">
+              <a className="button is-primary">
+                <strong>BOOK A TOUR</strong>
+              </a>
+
+              <button className="button is-primary">
+                <span className="icon">
+                  <i className="fas fa-phone"></i>
+                </span>
+                <strong>Call Us</strong>
+              </button>
+            </div>
+          </div>
+        </div>
+        </div>
       </div>
-</div>
-</div>
-    </nav>
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+  </div>
+          
+
+  </nav>
+
   </header>
 )
 
