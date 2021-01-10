@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Img from "gatsby-image"
 
 
 import Layout from "../components/layout"
@@ -8,7 +9,7 @@ import SEO from "../components/seo"
 
 import tempimage from "../images/gatsby-astronaut.png"
 
-const IndexPage = () => (
+const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
     
@@ -22,6 +23,7 @@ const IndexPage = () => (
       <h2 className="subtitle">
         Medium subtitle
       </h2>
+    <Img fluid={data.placeholderImage.childImageSharp.fluid} />
     </div>
   </div>
 </section>
@@ -48,8 +50,8 @@ const IndexPage = () => (
                 <div className="column has-text-centered">
                 
                    
-                   <figure className="image is-4by3">
-  <img src={tempimage}></img>
+                   <figure className="image">
+  <Img fluid={data.preschoolImage.childImageSharp.fluid}/>
 </figure>
 
                    <h1 className="subtitle ">We aim to create a learning environment where every child is supported</h1> 
@@ -136,3 +138,22 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+export const pageQuery = (graphql`
+    query {
+      placeholderImage: file(relativePath: { eq: "background-kids.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1344) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      preschoolImage: file(relativePath: { eq: "Gawler-Preschool.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 960) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
