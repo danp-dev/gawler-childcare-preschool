@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 
+import backgroundimg from "../images/background-kids.jpg"
+
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -13,18 +15,12 @@ const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
     
-    <section className="hero is-primary is-medium has-kids-on-hill-bg">
-  <div className="hero-body">
-  
+    <section className="section">
     <div className="container has-text-centered">
-      <h1 className="title">
-        Medium title
-      </h1>
-      <h2 className="subtitle">
-        Medium subtitle
-      </h2>
+      <div className="title is-size-1">
+        Gawler Community Childcare and Preschool
+      </div>
     <Img fluid={data.placeholderImage.childImageSharp.fluid} />
-    </div>
   </div>
 </section>
 
@@ -36,7 +32,7 @@ const IndexPage = ({data}) => (
                   <h4 className="subtitle is-size-5 is-dosis">Welcome to the</h4>
                    <h1 className="title is-size-1 is-dosis">Gawler Community  Childcare and Preschool</h1> 
                 
-                <div className="">
+                <div className="buttons">
                     
                     <a className="button is-primary">Book A Tour</a>
                     
@@ -62,8 +58,11 @@ const IndexPage = ({data}) => (
         </div>
     </section>
     
-    <section className="section has-background-info">
-        <div className="container has-text-centered  pb-6 pt-6">
+    
+    <section className="section">
+      <div className="container">
+      <div className="box">
+        <div className="container has-text-centered  py-6">
             
             <h1 className="title is-size-1">
                 OUR ROOMS
@@ -71,50 +70,50 @@ const IndexPage = ({data}) => (
             
             <div className="columns is-centered">
   <div className="column ">
-      <div className="container has-background-warning pb-3 pt-3">
+      <div className="container has-background-warning py-4 has-rounded-corners">
       
-      <span className="icon">
-  <i className="fas fa-baby is-large"></i>
+      <span className="icon is-large">
+  <i className="fas fa-baby fa-3x"></i>
 </span>
       
       <h1 className="title is-size-4">
-          Infants
+          Nursery
       </h1>
       </div>
   </div>
   <div className="column ">
-    <div className="container has-background-warning pb-3 pt-3">
+    <div className="container has-background-warning py-4 has-rounded-corners">
     
-    <span className="icon">
-<i className="fas fa-baby is-large"></i>
+    <span className="icon is-large">
+<i className="fas fa-cubes fa-3x"></i>
 </span>
     
     <h1 className="title is-size-4">
-        Infants
+        Toddlers
     </h1>
     </div>
 </div>
 <div className="column ">
-  <div className="container has-background-warning pb-3 pt-3">
+  <div className="container has-background-warning py-4 has-rounded-corners">
   
-  <span className="icon">
-<i className="fas fa-baby is-large"></i>
+  <span className="icon is-large">
+<i className="fas fa-book-reader fa-3x"></i>
 </span>
   
   <h1 className="title is-size-4">
-      Infants
+      Kindy
   </h1>
   </div>
 </div>
 <div className="column ">
-  <div className="container has-background-warning pb-3 pt-3">
+  <div className="container has-background-warning py-4 has-rounded-corners">
   
-  <span className="icon">
-<i className="fas fa-baby is-large"></i>
+  <span className="icon is-large">
+<i className="fas fa-chalkboard-teacher fa-3x"></i>
 </span>
   
   <h1 className="title is-size-4">
-      Infants
+      Preschool
   </h1>
   </div>
 </div>
@@ -123,7 +122,8 @@ const IndexPage = ({data}) => (
            <a className="button is-primary">Book A Tour</a> 
         </div>
         
-        
+    </div> 
+    </div>   
     </section>
 
     <h1>Hi people</h1>

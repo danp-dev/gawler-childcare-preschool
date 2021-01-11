@@ -4,18 +4,7 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <nav className="navbar is-topbar has-background-primary">
-      <div className="container">
-        <div className="navbar-start">
-        {siteTitle}
-        </div>
-      <div className="navbar-end">
-        <p>2 Finch Road Gawler East</p>
-        
-        </div>
-      </div>
-    </nav>
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav className="navbar has-shadow" role="navigation" aria-label="main navigation">
     <div className="container">
   
     <div id="navbarBasicExample" className="navbar-menu">
