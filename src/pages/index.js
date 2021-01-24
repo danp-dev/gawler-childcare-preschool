@@ -146,7 +146,7 @@ const IndexPage = ({data}) => (
     </section>
 
 
-    <section className="section is-medium has-background-warning">
+    <section className="section is-medium has-background-orange">
       <div className="container">
         <div className="columns is-vcentered">
           <div className="column is-one-thirds">
@@ -187,7 +187,7 @@ const IndexPage = ({data}) => (
       </div>
     </section>
 
-    <section className="section is-medium has-background-grey-light">
+    <section className="section is-medium has-background-purple">
       <div className="container">
         <div className="columns is-vcentered">
         <div className="column">

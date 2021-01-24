@@ -6,13 +6,25 @@
 $family-sans-serif: 'Open Sans', sans-serif;
 
 $blue: hsl(217, 71%, 53%);
-$orange: hsl(27, 100%, 65%);
 $purple: hsl(321, 49%, 65%)
-
+$orange: hsl(27, 100%, 65%);
+$red: hsl(357, 100%, 50%);
 
 $primary: $blue;
 $warning: $orange;
 @import "~bulma/bulma.sass"
+
+.has-background-blue
+    background-color: $blue
+
+.has-background-purple
+    background-color: $purple
+
+.has-background-orange
+    background-color: $orange
+
+.has-background-red
+    background-color: $red
 
 
 .is-topbar
