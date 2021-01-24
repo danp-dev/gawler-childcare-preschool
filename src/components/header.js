@@ -1,8 +1,14 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, {useState} from "react"
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle }) => {
+
+const [ismobtrue, setmobmenu] = useState(false);
+
+
+
+return(
   <header>
     <nav className="navbar has-shadow" role="navigation" aria-label="main navigation">
     <div className="container">
@@ -24,7 +30,8 @@ const Header = ({ siteTitle }) => (
         <a className="navbar-item">
           Contact
         </a>
-
+        
+       
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
@@ -49,7 +56,8 @@ const Header = ({ siteTitle }) => (
   </nav>
 
   </header>
-)
+);
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
