@@ -31,9 +31,9 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer className="footer">
           <div className="content has-text-centered" >
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}| 
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a href="https://danp.dev">Built by Dan</a>
         </div>
         </footer>
       </div>
