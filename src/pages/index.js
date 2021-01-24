@@ -34,9 +34,9 @@ const IndexPage = ({data}) => (
                 
                 <div className="buttons">
                     
-                    <a className="button is-primary">Book A Tour</a>
+                    <a className="button is-primary">Request A Tour</a>
                     
-                    <a className="button is-secondary">Book A Tour</a>
+                    <a className="button is-secondary">Call Us</a>
                     
                 </div>
                 
@@ -119,7 +119,7 @@ const IndexPage = ({data}) => (
 </div>
 </div>
             
-           <a className="button is-primary">Book A Tour</a> 
+           <a className="button is-primary">Find Out More</a> 
         </div>
         
     </div> 
