@@ -15,7 +15,8 @@ const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
     
-    <section className="section">
+    <section className="section is-hidden-touch">
+    
     <div className="container has-text-centered">
       <h1 className="title is-size-1">
         Gawler Community Childcare and Preschool
@@ -34,9 +35,15 @@ const IndexPage = ({data}) => (
                 
                 <div className="buttons">
                     
-                    <a className="button is-primary">Request A Tour</a>
-                    
-                    <a className="button is-secondary">Call Us</a>
+                <Link className="button is-primary" to="/book-a-tour/">Book A Tour</Link>
+
+              
+<a className="button is-outlined is-primary" href="tel:08 85222079">
+  <span className="icon">
+    <i className="fas fa-phone"></i>
+  </span>
+  <strong>Call Us</strong>
+</a>
                     
                 </div>
                 
@@ -79,6 +86,9 @@ const IndexPage = ({data}) => (
       <h1 className="title is-size-4">
           Nursery
       </h1>
+      <h3 className="subtitle is-size-5">
+        6 weeks to 2 years
+      </h3>
       </div>
   </div>
   <div className="column ">
@@ -91,6 +101,9 @@ const IndexPage = ({data}) => (
     <h1 className="title is-size-4">
         Toddlers
     </h1>
+    <h3 className="subtitle is-size-5">
+        2 to 4 years
+      </h3>
     </div>
 </div>
 <div className="column ">
@@ -103,6 +116,9 @@ const IndexPage = ({data}) => (
   <h1 className="title is-size-4">
       Kindy
   </h1>
+  <h3 className="subtitle is-size-5">
+        4 to 6 years
+      </h3>
   </div>
 </div>
 <div className="column ">
@@ -115,11 +131,14 @@ const IndexPage = ({data}) => (
   <h1 className="title is-size-4">
       Preschool
   </h1>
+  <h3 className="subtitle is-size-5">
+        4 years +
+      </h3>
   </div>
 </div>
 </div>
             
-           <a className="button is-primary">Find Out More</a> 
+           <Link className="button is-primary" to="/rooms/">Find Out More</Link> 
         </div>
         
     </div> 
@@ -178,14 +197,14 @@ const IndexPage = ({data}) => (
           </div>
           <div className="column is-one-thirds">
             <h1 className="title is-size-2">
-              Our Main Values
+              Learning Experiences
             </h1>
               <h2 className="subtitle is-size-4">
-                Our Philosophy and Mission
+                It's all about the children
               </h2>
                 <div className="content">  
                   <p>
-                  At our centre the rights and best interests of the child are paramount. All children and their diverse families are valued, welcomed and supported by our trained and respectful educators. Children and families from all cultures are welcomed and the centre recognises Aboriginal and Torres Strait Islanders as the traditional owner of country throughout Australia.
+                  Our educators work and respect each child’s unique qualities and abilities and provide all children experiences in learning that is dynamic, complex and holistic.
                   </p>
                     <a className="button is-primary">Book A Tour</a>
                 </div>

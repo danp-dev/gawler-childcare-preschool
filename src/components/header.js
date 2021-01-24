@@ -30,21 +30,12 @@ return(
     <div id="navbarBasicExample" className="navbar-menu">
     <div className="menu-is-fullwidth is-uppercase has-text-weight-bold">
       
-      <Link className="navbar-item" to="/">Home</Link>
+      <Link className="navbar-item" to="/">About</Link>
+
+      <Link className="navbar-item" to="/rooms/">Rooms</Link>
+
+      <Link className="navbar-item" to="/">Contact</Link>
   
-        <a className="navbar-item">
-          About
-        </a>
-
-        <a className="navbar-item">
-          Rooms
-        </a>
-
-        <a className="navbar-item">
-          Contact
-        </a>
-        
-       
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
