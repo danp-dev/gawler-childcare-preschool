@@ -7,26 +7,26 @@ import SEO from "../components/seo"
 const Bookatour = () => (
   <Layout>
     <SEO title="Book A Tour at Gawler Community Childcare Centre and Preschool" />
-    <Link to="/">Go back to the homepage</Link>
+
     <section className="section">
       <div className="columns is-mobile">
       <div className="column is-three-fifths is-offset-one-fifth">
         <div className="container has-text-centered">
-          <h1 className="title is-size-2">Book A Tour</h1>
-          <h3 className="title is-size-4">Send Us A Message</h3>
+          <h1 className="title is-size-2">Request A Tour</h1>
+          <h3 className="title is-size-4">We just need a little information to get you booked in.</h3>
         </div>
           
       <form name="contact" method="POST" data-netlify="true">
 
 <div className="field">
-<label className="label">Name</label>
+<label className="label">Your Name</label>
 <div className="control">
 <input className="input" type="text" placeholder="Text input"/>
 </div>
 </div>
 
 <div className="field">
-<label className="label">Best Date</label>
+<label className="label">Your preferred date of Tour</label>
 <div className="control">
 <input className="input" type="date" placeholder="Text input"/>
 </div>
@@ -47,24 +47,16 @@ const Bookatour = () => (
 </div>
 
 <div className="field">
-<label className="label">Which Room are you interested in?</label>
+<label className="label">Child's Age</label>
 <div className="control">
-<div className="select">
-<select>
-  <option>Select</option>
-  <option>Nursery</option>
-  <option>Toddler</option>
-  <option>Kindy</option>
-  <option>Preschool</option>
-</select>
-</div>
+<input className="input" type="text" placeholder="Text input"/> 
 </div>
 </div>
 
 <div className="field">
 <label className="label">Message</label>
 <div className="control">
-<textarea className="textarea" placeholder="Textarea"></textarea>
+<input className="textarea" placeholder="Textarea"></input>
 </div>
 </div>
 
