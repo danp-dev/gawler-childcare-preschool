@@ -2,6 +2,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, {useState} from "react"
 
+import logo from "../images/Gawler-Childcare-Preschool-Logo.svg"
+
 const Header = ({ siteTitle }) => {
 
 const [ismobtrue, setmobmenu] = useState(false);
@@ -13,8 +15,20 @@ return(
     <nav className="navbar has-shadow" role="navigation" aria-label="main navigation">
     <div className="container">
   
+    
+    <div className="navbar-brand">
+    <Link to="/"> <img src={logo}/></Link> 
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onClick={() => setmobmenu(!ismobtrue)}>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+    </div>
+    
+    
     <div id="navbarBasicExample" className="navbar-menu">
-      <div className="menu-is-fullwidth is-uppercase is-size-5 has-text-weight-bold">
+    <div className="menu-is-fullwidth is-uppercase has-text-weight-bold">
       
       <Link className="navbar-item" to="/">Home</Link>
   
