@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 
-import backgroundimg from "../images/background-kids.jpg"
+import backgroundimg from "../images/Gawler-Childcare-Header-Image.png"
 
 
 import Layout from "../components/layout"
@@ -15,13 +15,12 @@ const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
     
-    <section className="section is-hidden-touch">
+    <section className="section is-medium is-hidden-touch has-header-image-background">
     
-    <div className="container has-text-centered">
-      <h1 className="title is-size-1">
+      <div className="container has-text-centered">
+        <h1 className="title is-size-1">
         Gawler Community Childcare and Preschool
-      </h1>
-    <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+        </h1>
   </div>
 </section>
 
