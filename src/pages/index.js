@@ -77,7 +77,7 @@ const IndexPage = ({data}) => (
             
             <div className="columns is-centered">
   <div className="column ">
-      <div className="container has-background-warning py-4 has-rounded-corners">
+      <div className="container has-background-orange py-4 has-rounded-corners">
       
       <span className="icon is-large">
   <i className="fas fa-baby fa-3x"></i>
@@ -92,7 +92,7 @@ const IndexPage = ({data}) => (
       </div>
   </div>
   <div className="column ">
-    <div className="container has-background-red py-4 has-rounded-corners">
+    <div className="container has-background-blue py-4 has-rounded-corners">
     
     <span className="icon is-large">
 <i className="fas fa-cubes fa-3x"></i>
@@ -107,7 +107,7 @@ const IndexPage = ({data}) => (
     </div>
 </div>
 <div className="column ">
-  <div className="container has-background-warning py-4 has-rounded-corners">
+  <div className="container has-background-purple py-4 has-rounded-corners">
   
   <span className="icon is-large">
 <i className="fas fa-book-reader fa-3x"></i>
@@ -122,7 +122,7 @@ const IndexPage = ({data}) => (
   </div>
 </div>
 <div className="column ">
-  <div className="container has-background-warning py-4 has-rounded-corners">
+  <div className="container has-background-red py-4 has-rounded-corners">
   
   <span className="icon is-large">
 <i className="fas fa-chalkboard-teacher fa-3x"></i>
