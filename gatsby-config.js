@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gawler Community Childcare and Preschool`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Gawler Community Childcare and Preschool offers all children a dynamic learning system.`,
     author: `@gatsbyjs`,
   },
   plugins: [

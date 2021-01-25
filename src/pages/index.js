@@ -92,7 +92,7 @@ const IndexPage = ({data}) => (
       </div>
   </div>
   <div className="column ">
-    <div className="container has-background-warning py-4 has-rounded-corners">
+    <div className="container has-background-red py-4 has-rounded-corners">
     
     <span className="icon is-large">
 <i className="fas fa-cubes fa-3x"></i>
