@@ -177,17 +177,20 @@ const IndexPage = ({data}) => (
 
     <section className="section is-small my-6">
       <div className="containter ">
+       
           <div className="columns ">
-            <div class="column has-text-centered ">
-            <h1 className="title is-3">Want to know more?</h1>
-              <h3 className="subtitle is-5"> A tour of our centre is the best way to see everything we have to offer </h3>
-              <Link className="button is-warning" to="/book-a-tour/">Book A Tour</Link>
+            <div class="column is-half-desktop is-offset-one-quarter-desktop has-text-centered has-background-purple">
+              <div className="box">
+                <h1 className="title is-3">Want to know more?</h1>
+                <h3 className="subtitle is-5"> A tour of our centre is the best way to see everything we have to offer </h3>
+                <Link className="button is-warning" to="/book-a-tour/">Book A Tour</Link>
             </div>
+              </div>
               </div>
       </div>
     </section>
 
-    <section className="section is-medium has-background-purple">
+    <section className="section is-medium has-background-red">
       <div className="container">
         <div className="columns is-vcentered">
         <div className="column">
