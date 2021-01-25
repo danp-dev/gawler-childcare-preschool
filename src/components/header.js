@@ -21,7 +21,7 @@ return(
     <Link to="/"> <img src={logo}/></Link> 
     </div>
     
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onClick={() => setmobmenu(!ismobtrue)}>
+    <a role="button" class={ismobtrue ? 'navbar-burger is-active' : 'navbar-burger'} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onClick={() => setmobmenu(!ismobtrue)}>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -29,15 +29,15 @@ return(
     </div>
     
     
-    <div id="navbarBasicExample" className="navbar-menu">
-    <div className="menu-is-fullwidth is-uppercase has-text-weight-bold">
+    <div id="navbarBasicExample" className={ismobtrue ? 'navbar-menu is-active' : 'navbar-menu'}>
+    <div className="navbar-start">
       
       <Link className="navbar-item" to="/">About</Link>
 
       <Link className="navbar-item" to="/rooms/">Rooms</Link>
 
       <Link className="navbar-item" to="/">Contact</Link>
-  
+  </div>
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
@@ -53,7 +53,7 @@ return(
             </div>
           </div>
         </div>
-        </div>
+        
       </div>
   </div>
           

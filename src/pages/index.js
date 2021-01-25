@@ -217,7 +217,7 @@ const IndexPage = ({data}) => (
 
     <section className="section">
       <div className="columns is-mobile">
-      <div className="column is-three-fifths is-offset-one-fifth">
+      <div className="column is-three-fifths-desktop is-offset-one-fifth-desktop is-full-mobile">
         <div className="container has-text-centered">
           <h1 className="title is-size-2">Get In Touch</h1>
           <h3 className="title is-size-4">Send Us A Message</h3>

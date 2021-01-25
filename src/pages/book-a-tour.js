@@ -10,7 +10,7 @@ const Bookatour = () => (
 
     <section className="section">
       <div className="columns is-mobile">
-      <div className="column is-half is-three-quarters-mobile">
+      <div className="column is-half-desktop is-offset-one-quarter-desktop is-three-full-mobile">
         <div className="container has-text-centered">
           <h1 className="title is-size-2">Request A Tour</h1>
           <h3 className="title is-size-4">We just need a little information to get you booked in.</h3>

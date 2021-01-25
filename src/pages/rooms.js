@@ -75,7 +75,7 @@ We strive to meet the individual needs of each child to enable them to reach the
                                 <h3 className="subtitle is-6">2 to 4 Years</h3>
                     </div>
                     <div className="column is-6">
-                        <p>Children between 2 and 4 years enjoy the toddler area and enjoy challenging activities to stimulate each child’s developmental needs.</p>
+                        <p>Children between 2 and 4 years enjoy the toddler area and enjoy challenging activities to stimulate each child’s developmental needs. Our toddler room is a dynamic, fun filled learning environment which nurtures our children’s emerging self identity and guides them to develop independence, resilience and self-help skills which promotes lifelong learning.</p>
                     </div>
                 </div>
                 </div>
@@ -95,7 +95,7 @@ We strive to meet the individual needs of each child to enable them to reach the
                                 <h3 className="subtitle is-6">4 to 6 Years</h3>
                     </div>
                     <div className="column is-6">
-                        <p>Children between 3 - 6 years enjoy the Kindy room.</p>
+                        <p>Children between 3 - 6 years enjoy the Kindy room. We aspire to provide a stimulating and nurturing environment where our children can learn through play. Educators will support and scaffold the children’s emerging skills in a way which will help children become lifelong learners.</p>
                     </div>
                 </div>
                 </div>
