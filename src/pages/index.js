@@ -160,7 +160,7 @@ const IndexPage = ({data}) => (
                   <p>
                   At our centre the rights and best interests of the child are paramount. All children and their diverse families are valued, welcomed and supported by our trained and respectful educators. Children and families from all cultures are welcomed and the centre recognises Aboriginal and Torres Strait Islanders as the traditional owner of country throughout Australia.
                   </p>
-                    <a className="button is-primary">Book A Tour</a>
+                    <Link to="/about" className="button is-primary">More About The Centre</Link>
                 </div>
           </div>
           <div className="column">
