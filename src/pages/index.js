@@ -219,6 +219,11 @@ const IndexPage = ({data}) => (
 
     </section>
 
+    <div className="container has-text-centered py-6">
+          <h1 className="title is-size-2">Request A Tour</h1>
+          <h3 className="title is-size-4">We just need a little information to get you booked in.</h3>
+        </div>
+
   <BookTour />  
 
 
