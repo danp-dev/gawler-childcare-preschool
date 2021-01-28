@@ -20,7 +20,7 @@ const IndexPage = ({data}) => (
     
       <div className="container has-text-centered">
         <h1 className="title is-size-1">
-        Gawler Community Childcare and Preschool
+        Gawler Community Childcare and Preschool Centre
         </h1>
   </div>
 </section>
