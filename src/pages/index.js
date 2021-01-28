@@ -66,7 +66,7 @@ const IndexPage = ({data}) => (
     </section>
     
     
-    <section className="section">
+    <section className="section has-background-green">
       <div className="container">
       <div className="box">
         <div className="container has-text-centered  py-6">
