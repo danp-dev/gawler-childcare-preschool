@@ -9,6 +9,8 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import Pagetitle from "../components/pagetitles"
+
 
 const About = () => {
 
@@ -18,6 +20,7 @@ return(
 <Layout>
     <SEO title="About Gawler Childcare and Preschool" />
     <div>
+    <Pagetitle pagetitle="About Gawler Childcare and Preschool" background="$blue"/>
        <section className="section has-background-purple mb-6">
             <div className="container">
                 <div className="columns">
