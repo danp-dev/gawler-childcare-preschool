@@ -19,31 +19,7 @@ return(
 <Layout>
     <SEO title="Gawler Childcare and Preschool | Gawler Preschool" />
     <div>
-    <Pagetitle pagetitle="PreSchool" background="$blue" pagesubtitle="A perfect place to start your childs education"/>
-       <section className="section has-background-red mb-6">
-            <div className="container">
-                <div className="columns">
-                    <div className="column is-6">
-                        <h1 className="title is-1">
-                            Gawler Preschool
-                        </h1>
-                    </div>
-                
-
-                <div className="column is-6">
-                    <div className="box">
-                    <div className="content">
-                        <p>
-                        We aim to create a friendly and secure place for children where their independence and individuality is valued and nurtured.
-
-We strive to meet the individual needs of each child to enable them to reach their full potential by providing a learning environment which offers a stimulating, child focused program.
-                        </p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </section> 
+    <Pagetitle pagetitle="PreSchool" pagesubtitle="A perfect place to start your childs education"/>
 
         <section className="section is-small has-background-link-light">
             <div className="container">

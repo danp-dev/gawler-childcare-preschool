@@ -38,6 +38,8 @@ return(
 
       <Link className="navbar-item" to="/preschool/">Preschool</Link>
 
+      <Link className="navbar-item" to="/faqs/">FAQs</Link>
+
       <Link className="navbar-item" to="/">Contact</Link>
   </div>
         <div className="navbar-end">

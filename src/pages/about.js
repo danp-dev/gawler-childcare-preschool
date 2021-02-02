@@ -20,34 +20,7 @@ return(
 <Layout>
     <SEO title="About Gawler Childcare and Preschool" />
     <div>
-    <Pagetitle pagetitle="About Gawler Childcare and Preschool" background="$blue"/>
-       <section className="section has-background-purple mb-6">
-            <div className="container">
-                <div className="columns">
-                    <div className="column is-6">
-                        <h1 className="title is-1">
-                            About Our Centre
-                        </h1>
-                    </div>
-                
-
-                <div className="column is-6">
-                    <div className="box">
-                    <div className="content">
-                        <p>
-                        
-Gawler Community Child Care and Preschool is a fully accredited, approved Long Day Care Centre.
-The service has been assessed against the National Quality Standards and have been awarded EXCEEDING in all seven areas.
-Providing high quality education and care for children from 6 weeks to 6 years.
-The Centres is a Not for Profit Centre aiming to keep the quality of care exceeding expectations and the fees low. 
-
-                        </p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </section> 
+    <Pagetitle pagetitle="About Gawler Childcare and Preschool" subtitle="Did you know our centre scored a 7 out of 7 stars"/> 
 
         <section className="section is-small has-background-link-light">
             <div className="container">

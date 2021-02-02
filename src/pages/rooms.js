@@ -8,6 +8,7 @@ import backgroundimg from "../images/background-kids.jpg"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Pagetitle from "../components/pagetitles"
 
 
 const Rooms = () => {
@@ -18,30 +19,7 @@ return(
 <Layout>
     <SEO title="Gawler Childcare and Preschool Rooms" />
     <div>
-       <section className="section has-background-red mb-6">
-            <div className="container">
-                <div className="columns">
-                    <div className="column is-6">
-                        <h1 className="title is-1">
-                            Our Rooms
-                        </h1>
-                    </div>
-                
-
-                <div className="column is-6">
-                    <div className="box">
-                    <div className="content">
-                        <p>
-                        We aim to create a friendly and secure place for children where their independence and individuality is valued and nurtured.
-
-We strive to meet the individual needs of each child to enable them to reach their full potential by providing a learning environment which offers a stimulating, child focused program.
-                        </p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </section> 
+    <Pagetitle pagetitle="Our Rooms" pagesubtitle="From the nursery to our preschool, we care for children from 6 weeks to 4 years."/>
 
         <section className="section is-small has-background-link-light">
             <div className="container">
