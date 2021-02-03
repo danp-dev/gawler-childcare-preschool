@@ -3,12 +3,14 @@ import { Link } from "gatsby"
 import Img from "gatsby-image"
 
 import backgroundimg from "../images/background-kids.jpg"
-
+import crayonsimage from "../images/Gawler-Childcare-Crayons.webp"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Pagetitle from "../components/pagetitles"
+
+
 
 
 const Preschool = () => {
@@ -23,85 +25,27 @@ return(
 
         <section className="section is-small has-background-link-light">
             <div className="container">
-                <div className="box py-6">
-                <div className="columns has-text-centered is-vcentered">
-                    <div className="column is-6">
-                        <span className="icon is-large">
-                            <i className="fas fa-baby fa-3x"></i>
-                        </span>
-                            <h1 className="title is-4">Nursery</h1>
-                                <h3 className="subtitle is-6">6 weeks - 2 1/2 years</h3>
-                    </div>
-                    <div className="column is-6">
-                        <p>Children up to 2 and ½ years enjoy the security of the Nursery environment with nurturing educators whilst still being provided with stimulating curriculum.</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-            
-        </section>
+                <div className="box">
+               <div className="content">
+                   <p>
+                       <h3 className="is-size-4"> Why Choose Our Preschool?</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis justo, facilisis luctus faucibus vitae, pharetra non sem. Aenean ac lorem ut purus volutpat ornare. Mauris ut eleifend urna. Curabitur turpis ante, accumsan a semper non, gravida eget lorem. Donec consequat ex vel finibus vehicula. Vestibulum fermentum, mi id pretium tincidunt, augue sem porta velit, cursus molestie nisi lorem convallis velit. Aenean a augue vitae purus fermentum convallis quis vel velit. Phasellus porta varius tortor a mollis. Fusce egestas suscipit ultricies. Sed vitae magna mauris. Cras nec massa nec tortor luctus luctus sodales a metus. Curabitur finibus ut eros sit amet rutrum. Nullam ipsum libero, condimentum vel nunc vel, volutpat imperdiet est. Curabitur quis risus nec enim bibendum scelerisque sed vitae elit.
 
-        <section className="section is-small has-background-warning-light">
-            <div className="container">
-            <div className="box py-6">
-                <div className="columns has-text-centered is-vcentered">
-                    <div className="column is-6">
-                        <span className="icon is-large">
-                            <i className="fas fa-cubes fa-3x"></i>
-                        </span>
-                            <h1 className="title is-4">Toddler's</h1>
-                                <h3 className="subtitle is-6">2 to 4 Years</h3>
-                    </div>
-                    <div className="column is-6">
-                        <p>Children between 2 and 4 years enjoy the toddler area and enjoy challenging activities to stimulate each child’s developmental needs. Our toddler room is a dynamic, fun filled learning environment which nurtures our children’s emerging self identity and guides them to develop independence, resilience and self-help skills which promotes lifelong learning.</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-            
-        </section>
+Praesent et feugiat nibh. Vivamus imperdiet <figure>
+                       <img src={crayonsimage} align="right"/>
+                   </figure>
+                   <h3 className="is-size-4"> Do you have a teacher onsite?</h3>
+                   hendrerit tellus, non iaculis justo finibus sit amet. Donec laoreet ligula euismod, cursus tortor ut, auctor mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam eu metus nisl. Fusce sed quam vitae dolor posuere volutpat ut sed ante. Cras at commodo nisl, sit amet placerat ipsum. Fusce aliquet enim at dictum consequat. Sed luctus purus finibus ultricies congue.
 
-        <section className="section is-small has-background-link-light">
-            <div className="container">
-            <div className="box py-6">
-                <div className="columns has-text-centered is-vcentered">
-                    <div className="column is-6">
-                        <span className="icon is-large">
-                            <i className="fas fa-book-reader fa-3x"></i>
-                        </span>
-                            <h1 className="title is-4">Kindy</h1>
-                                <h3 className="subtitle is-6">4 to 6 Years</h3>
-                    </div>
-                    <div className="column is-6">
-                        <p>Children between 3 - 6 years enjoy the Kindy room. We aspire to provide a stimulating and nurturing environment where our children can learn through play. Educators will support and scaffold the children’s emerging skills in a way which will help children become lifelong learners.</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-            
-        </section> 
+Sed sit amet efficitur sapien. Phasellus porttitor ac nulla vel hendrerit. Morbi mattis augue leo, sit amet porttitor odio pulvinar a. Sed porta lacus ac viverra feugiat. Donec convallis auctor sapien, quis ultricies quam aliquam in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam augue tortor, iaculis ac bibendum ut, pellentesque quis sem. Pellentesque quis imperdiet ante. Suspendisse facilisis pellentesque mi, vel imperdiet justo aliquam a. Curabitur mattis lacus ut ante bibendum, in tristique mi iaculis. Aliquam egestas pellentesque neque non suscipit.
 
-        <section className="section is-small has-background-warning-light">
-            <div className="container">
-            <div className="box py-6">
-                <div className="columns has-text-centered is-vcentered">
-                    <div className="column is-6">
-                        <span className="icon is-large">
-                            <i className="fas fa-chalkboard-teacher fa-3x"></i>
-                        </span>
-                            <h1 className="title is-4">Preschool</h1>
-                                <h3 className="subtitle is-6">4 years +</h3>
-                    </div>
-                    <div className="column is-6">
-                        <p>Available for all children in the year before full-time school.
-Preschool offers Aboriginal and Torres Strait Islander children access from three years of age.
-Our Preschool program is offered to children who are enrolled in our childcare centre which is delivered by a University Qualified Teacher.
-If your child is turning 4 years of age (or turning 4 before the 1st of May) they are eligible to access our preschool program of  up to 15 hours per week.  
-There is no additional charge on top of your childcare fees for preschool.  
-</p>
-                    </div>
-                </div>
-                </div>
+<h3 className="is-size-4"> Can I enroll my child now?</h3>
+Nullam ut erat a lorem malesuada aliquam et vel leo. Mauris at accumsan ligula, mollis rhoncus justo. Proin turpis neque, elementum id cursus id, rutrum sed turpis. Nulla vehicula eu risus vitae fermentum. Vivamus viverra urna purus, at euismod ante porttitor vel. Sed a neque augue. Mauris pulvinar neque non dolor interdum bibendum. Etiam porttitor lacus quam, ornare suscipit ante tincidunt sit amet. Nam non tellus in enim tempus sollicitudin. Nunc et purus non nibh pretium ullamcorper.
+
+Aliquam mi est, aliquam in elit et, pharetra sodales eros. Ut eu semper erat. Praesent efficitur a libero non tempor. Suspendisse ut eleifend diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse sit amet mattis quam. Sed venenatis at ex non pretium. </p>
+                   <Link to="/book-a-tour/" className="button is-primary" >Book A Tour Of Our Preschool</Link>
+               </div>
+               </div>
             </div>
             
         </section>
