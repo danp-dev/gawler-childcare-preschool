@@ -25,13 +25,12 @@ return(
         <section className="section is-small has-background-link-light">
             <div className="container">
                 <div className="box py-6">
-                <div className="columns has-text-centered is-vcentered">
-                    <div className="column is-half-desktop is-offset-one-quarter-desktop">
+                <div className="content">
                         <span className="icon is-large">
                             <i className="fas fa-cubes fa-3x"></i>
                         </span>
                             <h1 className="title is-1">Lets Play</h1>
-                                <div className="content">
+                                
                                     <p>
 
 It is widely recognized by early childhood professionals that children learn through play.
@@ -46,8 +45,7 @@ Our aim is to provide quality care in a learning environment that is responsive 
                                     </p>
                                 </div>
                     </div>
-                </div>
-                </div>
+                
             </div>
             
         </section>

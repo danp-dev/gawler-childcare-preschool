@@ -21,8 +21,9 @@ return(
     <div>
     <Pagetitle pagetitle="FAQs" pagesubtitle="Your questions answered"/>
 
-    <section className="section">
+    <section className="section has-background-primary-light">
         <div className="container">
+            <div className="box">
             <div className="columns">
                 <div className="column">
                     <div className="content">
@@ -54,6 +55,7 @@ return(
                     <figure>
                         <img src={backgroundimg}/>
                     </figure>
+                </div>
                 </div>
             </div>
         </div>

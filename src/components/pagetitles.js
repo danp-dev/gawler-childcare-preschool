@@ -1,5 +1,7 @@
 import React from "react"
+
 import kidsonhillimage from "../images/kids-holding-hands-on-grass.jpeg"
+import GatsbyImage from "gatsby-image"
 
 const Pagetitle = ({pagetitle, pagesubtitle}) => (
 

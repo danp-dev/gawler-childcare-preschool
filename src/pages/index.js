@@ -16,12 +16,12 @@ const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
     
-    <section className="section is-medium is-hidden-touch has-header-image-background">
+    <section className="section  is-hidden-touch has-header-image-background">
     
       <div className="container has-text-centered">
-        <h1 className="title is-size-1">
-        Gawler Community Childcare and Preschool Centre
-        </h1>
+          <h1 className="title is-hero-title">
+          Gawler Community Childcare and Preschool Centre
+          </h1>
   </div>
 </section>
 
@@ -175,16 +175,20 @@ const IndexPage = ({data}) => (
 
     </section>
 
-    <section className="section is-small my-6">
-      <div className="containter ">
-       
-          <div className="columns ">
-            <div class="column is-half-desktop is-offset-one-quarter-desktop has-text-centered has-background-purple">
-              <div className="box">
-                <h1 className="title is-3">Want to know more?</h1>
-                <h3 className="subtitle is-5"> A tour of our centre is the best way to see everything we have to offer </h3>
-                <Link className="button is-warning" to="/book-a-tour/">Book A Tour</Link>
-            </div>
+    <section className="section is-small has-background-pattern">
+      <div className="container ">
+          <div className="columns is-vcentered">
+            <div class="column is-two-thirds-desktop ">
+              
+                <h1 className="title is-3 has-text-white">Want to know more?</h1>
+                <h3 className="subtitle is-5 has-text-white"> A tour of our centre is the best way to see everything we have to offer </h3>
+                
+            
+              </div>
+              <div class="column is-one-third-desktop has-text-centered">
+              
+                <Link className="button is-outlined" to="/book-a-tour/">Book A Tour</Link>
+            
               </div>
               </div>
       </div>
