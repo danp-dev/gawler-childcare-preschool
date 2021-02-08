@@ -72,7 +72,7 @@ const IndexPage = ({data}) => (
         <div className="container has-text-centered  py-6">
             
             <h1 className="title is-size-1">
-                OUR ROOMS
+                Gawler Childcare Rooms
             </h1>
             
             <div className="columns is-centered">
@@ -138,7 +138,7 @@ const IndexPage = ({data}) => (
 </div>
 </div>
             
-           <Link className="button is-primary" to="/rooms/">Find Out More</Link> 
+           <Link className="button is-primary" to="/rooms/">Find Out More About The Gawler Childcare Rooms</Link> 
         </div>
         
     </div> 
@@ -181,7 +181,7 @@ const IndexPage = ({data}) => (
             <div class="column is-two-thirds-desktop ">
               
                 <h1 className="title is-3 has-text-white">Want to know more?</h1>
-                <h3 className="subtitle is-5 has-text-white"> A tour of our centre is the best way to see everything we have to offer </h3>
+                <h3 className="subtitle is-5 has-text-white"> A tour of the Gawler Childcare and Preschool is the best way to see everything we have to offer </h3>
                 
             
               </div>

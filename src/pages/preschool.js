@@ -19,16 +19,16 @@ const Preschool = ({data}) => {
 return(
 
 <Layout>
-    <SEO title="Gawler Childcare and Preschool | Gawler Preschool" />
+    <SEO title="Gawler Preschool" description="The Gawler Preschool is a great place for your kids to learn"/>
     <div>
-    <Pagetitle pagetitle="Preschool" pagesubtitle="A perfect place to start your childs education"/>
+    <Pagetitle pagetitle="Gawler Preschool" pagesubtitle="A perfect place to start your childs education"/>
 
         <section className="section is-small has-background-link-light">
             <div className="container">
                 <div className="box">
                <div className="content">
                    <p>
-                       <h3 className="is-size-4"> Why Choose Our Preschool?</h3>
+                       <h3 className="is-size-4"> Why choose the Gawler Preschool?</h3>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis justo, facilisis luctus faucibus vitae, pharetra non sem. Aenean ac lorem ut purus volutpat ornare. Mauris ut eleifend urna. Curabitur turpis ante, accumsan a semper non, gravida eget lorem. Donec consequat ex vel finibus vehicula. Vestibulum fermentum, mi id pretium tincidunt, augue sem porta velit, cursus molestie nisi lorem convallis velit. Aenean a augue vitae purus fermentum convallis quis vel velit. Phasellus porta varius tortor a mollis. Fusce egestas suscipit ultricies. Sed vitae magna mauris. Cras nec massa nec tortor luctus luctus sodales a metus. Curabitur finibus ut eros sit amet rutrum. Nullam ipsum libero, condimentum vel nunc vel, volutpat imperdiet est. Curabitur quis risus nec enim bibendum scelerisque sed vitae elit.
 
 Praesent et feugiat nibh. Vivamus imperdiet
@@ -44,7 +44,7 @@ Sed sit amet efficitur sapien. Phasellus porttitor ac nulla vel hendrerit. Morbi
 Nullam ut erat a lorem malesuada aliquam et vel leo. Mauris at accumsan ligula, mollis rhoncus justo. Proin turpis neque, elementum id cursus id, rutrum sed turpis. Nulla vehicula eu risus vitae fermentum. Vivamus viverra urna purus, at euismod ante porttitor vel. Sed a neque augue. Mauris pulvinar neque non dolor interdum bibendum. Etiam porttitor lacus quam, ornare suscipit ante tincidunt sit amet. Nam non tellus in enim tempus sollicitudin. Nunc et purus non nibh pretium ullamcorper.
 
 Aliquam mi est, aliquam in elit et, pharetra sodales eros. Ut eu semper erat. Praesent efficitur a libero non tempor. Suspendisse ut eleifend diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse sit amet mattis quam. Sed venenatis at ex non pretium. </p>
-                   <Link to="/book-a-tour/" className="button is-primary" >Book A Tour Of Our Preschool</Link>
+                   <Link to="/book-a-tour/" className="button is-primary" >Book A Tour Of The Gawler Preschool</Link>
                </div>
                </div>
             </div>
