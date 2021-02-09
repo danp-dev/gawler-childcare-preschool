@@ -138,7 +138,7 @@ const IndexPage = ({data}) => (
 </div>
 </div>
             
-           <Link className="button is-primary" to="/rooms/">Find Out More About The Gawler Childcare Rooms</Link> 
+           <Link className="button is-primary is-long-button" to="/rooms/">Find Out More About The Gawler Childcare Rooms</Link> 
         </div>
         
     </div> 
