@@ -60,13 +60,13 @@ return(
                 </div>
                 <div className="column">
                     <figure>
-                        <img src={backgroundimg}/>
+                        <img src={crayonsimage}/>
                     </figure>
                     <figure>
                         <img src={backgroundimg}/>
                     </figure>
                     <figure>
-                        <img src={backgroundimg}/>
+                        <img src={crayonsimage}/>
                     </figure>
                 </div>
                 </div>
