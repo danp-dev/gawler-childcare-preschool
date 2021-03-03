@@ -66,7 +66,7 @@ const IndexPage = ({data}) => (
     </section>
     
     
-    <section className="section has-background-green">
+    <section className="section">
       <div className="container">
       <div className="box">
         <div className="container has-text-centered  py-6">
@@ -146,7 +146,7 @@ const IndexPage = ({data}) => (
     </section>
 
 
-    <section className="section is-medium has-background-orange">
+    <section className="section is-small has-background-orange">
       <div className="container">
         <div className="columns is-vcentered">
           <div className="column is-one-thirds">
@@ -194,7 +194,7 @@ const IndexPage = ({data}) => (
       </div>
     </section>
 
-    <section className="section is-medium has-background-red">
+    <section className="section is-small has-background-red">
       <div className="container">
         <div className="columns is-vcentered">
         <div className="column">
