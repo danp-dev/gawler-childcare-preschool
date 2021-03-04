@@ -6,8 +6,8 @@ import GatsbyImage from "gatsby-image"
 const Pagetitle = ({pagetitle, pagesubtitle}) => (
 
     <section className="section is-small page-section-header">
-        <div className="container">
-            <div className="columns">
+        <div className="container ">
+            <div className="columns is-vcentered">
                 <div className="column is-two-thirds">
                     <h1 className="title is-1">
                         {pagetitle}

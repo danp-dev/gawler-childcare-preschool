@@ -14,7 +14,7 @@ import tempimage from "../images/gatsby-astronaut.png"
 
 const IndexPage = ({data}) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Gawler Community Child Care and Preschool Centre"/>
     
     <section className="section  is-hidden-touch has-header-image-background">
     

@@ -19,7 +19,7 @@ return(
 <Layout>
     <SEO title="Gawler Childcare and Preschool Rooms" />
     <div>
-    <Pagetitle pagetitle="Our Rooms" pagesubtitle="From the nursery to our preschool, we care for children from 6 weeks to 4 years."/>
+    <Pagetitle pagetitle="Gawler Childcare and Preschool Rooms" pagesubtitle="From the nursery to our preschool, we care for children from 6 weeks to 4 years."/>
 
         <section className="section is-small has-background-link-light">
             <div className="container">
