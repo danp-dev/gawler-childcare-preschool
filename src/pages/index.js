@@ -77,7 +77,7 @@ const IndexPage = ({data}) => (
             
             <div className="columns is-centered">
   <div className="column ">
-      <div className="container has-background-orange py-4 has-rounded-corners">
+      <div className="container has-border-orange py-4 has-rounded-corners">
       
       <span className="icon is-large">
   <i className="fas fa-baby fa-3x"></i>
@@ -92,7 +92,7 @@ const IndexPage = ({data}) => (
       </div>
   </div>
   <div className="column ">
-    <div className="container has-background-blue py-4 has-rounded-corners">
+    <div className="container has-border-blue py-4 has-rounded-corners">
     
     <span className="icon is-large">
 <i className="fas fa-cubes fa-3x"></i>
@@ -107,7 +107,7 @@ const IndexPage = ({data}) => (
     </div>
 </div>
 <div className="column ">
-  <div className="container has-background-purple py-4 has-rounded-corners">
+  <div className="container has-border-purple py-4 has-rounded-corners">
   
   <span className="icon is-large">
 <i className="fas fa-book-reader fa-3x"></i>
@@ -122,7 +122,7 @@ const IndexPage = ({data}) => (
   </div>
 </div>
 <div className="column ">
-  <div className="container has-background-red py-4 has-rounded-corners">
+  <div className="container has-border-red py-4 has-rounded-corners">
   
   <span className="icon is-large">
 <i className="fas fa-chalkboard-teacher fa-3x"></i>
@@ -175,25 +175,6 @@ const IndexPage = ({data}) => (
 
     </section>
 
-    <section className="section is-small has-background-pattern">
-      <div className="container ">
-          <div className="columns is-vcentered">
-            <div class="column is-two-thirds-desktop ">
-              
-                <h1 className="title is-3 has-text-white">Want to know more?</h1>
-                <h3 className="subtitle is-5 has-text-white"> A tour of the Gawler Childcare and Preschool is the best way to see everything we have to offer </h3>
-                
-            
-              </div>
-              <div class="column is-one-third-desktop has-text-centered">
-              
-                <Link className="button is-outlined" to="/book-a-tour/">Book A Tour</Link>
-            
-              </div>
-              </div>
-      </div>
-    </section>
-
     <section className="section is-small has-background-red">
       <div className="container">
         <div className="columns is-vcentered">
@@ -221,6 +202,25 @@ const IndexPage = ({data}) => (
 
       </div>
 
+    </section>
+
+    <section className="section is-small has-background-pattern">
+      <div className="container ">
+          <div className="columns is-vcentered">
+            <div class="column is-two-thirds-desktop ">
+              
+                <h1 className="title is-3 has-text-white">Want to know more?</h1>
+                <h3 className="subtitle is-5 has-text-white"> A tour of the Gawler Childcare and Preschool is the best way to see everything we have to offer </h3>
+                
+            
+              </div>
+              <div class="column is-one-third-desktop has-text-centered">
+              
+                <Link className="button is-outlined" to="/book-a-tour/">Book A Tour</Link>
+            
+              </div>
+              </div>
+      </div>
     </section>
 
     <div className="container has-text-centered py-6">
