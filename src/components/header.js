@@ -40,7 +40,7 @@ return(
 
       <Link className="navbar-item" to="/faqs/">FAQs</Link>
 
-      <Link className="navbar-item" to="/contact">Contact</Link>
+      <Link className="navbar-item" to="/contact/">Contact</Link>
   </div>
         <div className="navbar-end">
           <div className="navbar-item">

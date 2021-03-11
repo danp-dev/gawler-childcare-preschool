@@ -2,8 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 
+
 import backgroundimg from "../images/background-kids.jpg"
 import crayonsimage from "../images/Gawler-Childcare-Crayons.webp"
+import cassieimage from "../images/Gawler-Childcare-Preschool-Teacher-Cassie.webp"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -20,6 +22,7 @@ return(
 
 <Layout>
     <SEO title="Gawler Preschool" description="The Gawler Preschool is a great place for your kids to learn"/>
+    
     <div>
     <Pagetitle pagetitle="Gawler Preschool" pagesubtitle="A perfect place to start your childs education"/>
 
@@ -27,7 +30,9 @@ return(
             <div className="container">
                 <div className="box">
                <div className="content">
-                   <p>
+                   
+
+<p>
                        <h3 className="is-size-4"> Why choose the Gawler Preschool?</h3>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus felis justo, facilisis luctus faucibus vitae, pharetra non sem. Aenean ac lorem ut purus volutpat ornare. Mauris ut eleifend urna. Curabitur turpis ante, accumsan a semper non, gravida eget lorem. Donec consequat ex vel finibus vehicula. Vestibulum fermentum, mi id pretium tincidunt, augue sem porta velit, cursus molestie nisi lorem convallis velit. Aenean a augue vitae purus fermentum convallis quis vel velit. Phasellus porta varius tortor a mollis. Fusce egestas suscipit ultricies. Sed vitae magna mauris. Cras nec massa nec tortor luctus luctus sodales a metus. Curabitur finibus ut eros sit amet rutrum. Nullam ipsum libero, condimentum vel nunc vel, volutpat imperdiet est. Curabitur quis risus nec enim bibendum scelerisque sed vitae elit.
 
@@ -35,6 +40,10 @@ Praesent et feugiat nibh. Vivamus imperdiet
                     <figure className="image">
                        <Img className="py-3 px-3" fluid={data.preschoolImage.childImageSharp.fluid} align="right"/>
                    </figure>
+
+                   <figure className="image">
+                       <img src={cassieimage} className="py-3 px-3"></img>
+                       </figure>
                    <h3 className="is-size-4"> Do you have a teacher onsite?</h3>
                    hendrerit tellus, non iaculis justo finibus sit amet. Donec laoreet ligula euismod, cursus tortor ut, auctor mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam eu metus nisl. Fusce sed quam vitae dolor posuere volutpat ut sed ante. Cras at commodo nisl, sit amet placerat ipsum. Fusce aliquet enim at dictum consequat. Sed luctus purus finibus ultricies congue.
 
