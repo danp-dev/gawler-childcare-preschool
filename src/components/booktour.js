@@ -13,21 +13,21 @@ const Booktour = () => {
       <div className="columns is-mobile">
       <div className="column is-half-desktop is-offset-one-quarter-desktop is-three-full-mobile">
           
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" method="POST" data-netlify="true" action="/thanksforbooking/">
       <input type="hidden" name="form-name" value="contact"/>
-  <p>
+  <p className="py-3">
     <label className="label">Your Name: <input type="text" className="input" name="name" /></label>   
   </p>
-  <p>
+  <p className="py-3">
     <label className="label">Your Email: <input type="email" className="input" name="email" /></label>
   </p>
-  <p>
+  <p className="py-3">
     <label className="label">Your Preferred Date of Tour: <input type="date" className="input" name="date"/></label>
   </p>
-  <p>
+  <p className="py-3">
     <label className="label">Message: <textarea name="message" className="textarea"></textarea></label>
   </p>
-  <p>
+  <p className="py-3">
     <button type="submit" className="button">Book Tour</button>
   </p>
 </form>
