@@ -2,8 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 
-import backgroundimg from "../images/background-kids.jpg"
-import kidshandsimg from "../images/Gawler-Childcare-Crayons.webp"
+
+import outsideimg from "../images/Gawler-Community-Childcare-Centre-3.webp"
+
 
 
 import Layout from "../components/layout"
@@ -48,13 +49,7 @@ Our aim is to provide quality care in a learning environment that is responsive 
                         </div>
                         <div className="column is-half">
                             <figure className="image py-3">
-                                <img src={backgroundimg} alt="Cartoon drawn kids plying on a hill">
-
-                                </img>
-
-                            </figure>
-                            <figure className="image py-3">
-                                <img src={kidshandsimg} alt="Kids hands playing with Crayons">
+                                <img src={outsideimg} alt="Outside Play area at Galwer Community Childcare">
 
                                 </img>
 

@@ -45,7 +45,7 @@ return(
                         Phone: <a href="tel:0885222079">08 8522 2079</a>
                         </p>
                         <p>
-                        Come visit us at: 2 Finch Road Gawler East, AUS, 5118
+                        Come visit us: 2 Finch Road Gawler East, 5118
                         </p>
                         <p>
                         EVEN BETTER... Book in a tour of the centre below!
@@ -80,7 +80,7 @@ export const pageQuery = (graphql`
           }
         }
       }
-      preschoolImage: file(relativePath: { eq: "Gawler-Preschool.jpg" }) {
+      preschoolImage: file(relativePath: { eq: "Gawler-Community-Childcare-Centre-2.webp" }) {
         childImageSharp {
           fluid(maxWidth: 1920) {
             ...GatsbyImageSharpFluid

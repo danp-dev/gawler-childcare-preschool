@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 
 import backgroundimg from "../images/background-kids.jpg"
 import crayonsimage from "../images/Gawler-Childcare-Crayons.webp"
+import kindyimage from "../images/Gawler-Community-Childcare-Centre-9.webp"
 
 
 
@@ -60,7 +61,7 @@ return(
                 </div>
                 <div className="column">
                     <figure>
-                        <img src={crayonsimage}/>
+                        <img src={kindyimage}/>
                     </figure>
                     <figure>
                         <img src={backgroundimg}/>

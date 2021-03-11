@@ -54,7 +54,7 @@ const IndexPage = ({data}) => (
                 
                    
                    <figure className="image">
-  <Img fluid={data.preschoolImage.childImageSharp.fluid}/>
+  <Img fluid={data.outsideImage.childImageSharp.fluid}/>
 </figure>
 
                    <h1 className="subtitle ">We aim to create a learning environment where every child is supported</h1> 
@@ -165,7 +165,7 @@ const IndexPage = ({data}) => (
           </div>
           <div className="column">
           <figure className="image">
-            <Img fluid={data.preschoolImage.childImageSharp.fluid}/>
+            <Img fluid={data.outsideImage2.childImageSharp.fluid}/>
           </figure>
           </div>
         </div>
@@ -241,6 +241,22 @@ export const pageQuery = (graphql`
       placeholderImage: file(relativePath: { eq: "background-kids.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1344) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      outsideImage: file(relativePath: { eq: "Gawler-Community-Childcare-Centre-10.webp" }) {
+        childImageSharp {
+          fluid(maxWidth: 960) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      outsideImage2: file(relativePath: { eq: "Gawler-Community-Childcare-Centre-2.webp" }) {
+        childImageSharp {
+          fluid(maxWidth: 960) {
             ...GatsbyImageSharpFluid
           }
         }
