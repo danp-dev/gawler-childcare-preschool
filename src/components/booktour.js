@@ -28,53 +28,27 @@ const Booktour = () => {
 </div>
           
       <form name="contact" method="POST" data-netlify="true">
-      <input type="hidden" name="form-name" value="contact"/>
-<div className="field">
-<label className="label">Your Name
-<input className="input" type="text" placeholder="Text input"/></label>
-</div>
-</div>
-
-<div className="field">
-<label className="label">Your preferred date of Tour</label>
-<div className="control">
-<input className="input" type="date" placeholder="Text input"/>
-</div>
-</div>
-
-
-<div className="field">
-<label className="label">Email</label>
-<div className="control has-icons-left has-icons-right">
-<input className="input" type="email" placeholder="Email input"/>
-<span className="icon is-small is-left">
-<i className="fas fa-envelope"></i>
-</span>
-</div>
-</div>
-
-<div className="field">
-<label className="label">Child's Age</label>
-<div className="control">
-<input className="input" type="text" placeholder="Text input"/> 
-</div>
-</div>
-
-<div className="field">
-<label className="label">Message</label>
-<div className="control">
-<input className="textarea" placeholder="Textarea"></input>
-</div>
-</div>
-
-
-<div className="field is-grouped">
-<div className="control">
-<button type="submit" className="button is-link">Submit</button>
-</div>
-</div>
-
+      
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
 </form>
+
 
       </div>
       </div>
