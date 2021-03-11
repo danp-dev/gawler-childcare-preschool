@@ -29,12 +29,9 @@ const Booktour = () => {
           
       <form name="contact" method="POST" data-netlify="true">
       <input type="hidden" name="form-name" value="contact"/>
-
-
 <div className="field">
-<label className="label">Your Name</label>
-<div className="control">
-<input className="input" type="text" placeholder="Text input"/>
+<label className="label">Your Name
+<input className="input" type="text" placeholder="Text input"/></label>
 </div>
 </div>
 
