@@ -194,7 +194,7 @@ const IndexPage = ({data}) => (
                   <p>
                   Our educators work and respect each child’s unique qualities and abilities and provide all children experiences in learning that is dynamic, complex and holistic.
                   </p>
-                  <Link to="/frequently-asked-questions-about-gawler-childcare/" className="button is-primary">Frequently Asked Questions About The Gawler Childcare</Link>
+                  <Link to="/frequently-asked-questions-about-gawler-childcare/" className="button is-primary is-long-button">Frequently Asked Questions About The Gawler Childcare</Link>
                 </div>
           </div>
         </div>
