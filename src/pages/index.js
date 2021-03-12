@@ -35,8 +35,8 @@ const IndexPage = ({data}) => (
                 
                 <div className="buttons">
                     
-                <Link className="button is-primary" to="/book-a-tour/">Book A Tour</Link>
-
+                <Link to="/book-a-tour-of-the-gawler-childcare/" className="button is-primary">Book A Tour Of The Centre</Link>
+                
               
 <a className="button is-outlined is-primary" href="tel:08 85222079">
   <span className="icon">
@@ -160,7 +160,7 @@ const IndexPage = ({data}) => (
                   <p>
                   At our centre the rights and best interests of the child are paramount. All children and their diverse families are valued, welcomed and supported by our trained and respectful educators. Children and families from all cultures are welcomed and the centre recognises Aboriginal and Torres Strait Islanders as the traditional owner of country throughout Australia.
                   </p>
-                    <Link to="/about" className="button is-primary">More About The Centre</Link>
+                    <Link to="/about-gawler-childcare-and-preschool/" className="button is-primary">More About The Centre</Link>
                 </div>
           </div>
           <div className="column">
@@ -194,7 +194,7 @@ const IndexPage = ({data}) => (
                   <p>
                   Our educators work and respect each child’s unique qualities and abilities and provide all children experiences in learning that is dynamic, complex and holistic.
                   </p>
-                    <a className="button is-primary">Book A Tour</a>
+                  <Link to="/frequently-asked-questions-about-gawler-childcare/" className="button is-primary">Frequently Asked Questions About The Gawler Childcare</Link>
                 </div>
           </div>
         </div>
@@ -216,7 +216,7 @@ const IndexPage = ({data}) => (
               </div>
               <div class="column is-one-third-desktop has-text-centered">
               
-                <Link className="button is-outlined" to="/book-a-tour/">Book A Tour</Link>
+              <Link to="/book-a-tour-of-the-gawler-childcare/" className="button is-primary">More About The Centre</Link>
             
               </div>
               </div>

@@ -32,20 +32,20 @@ return(
     <div id="navbarBasicExample" className={ismobtrue ? 'navbar-menu is-active' : 'navbar-menu'}>
     <div className="navbar-start">
       
-      <Link className="navbar-item" to="/about/">About</Link>
+      <Link className="navbar-item" to="/about-gawler-childcare-and-preschool/">About</Link>
 
-      <Link className="navbar-item" to="/rooms/">Rooms</Link>
+      <Link className="navbar-item" to="/gawler-childcare-preschool-centre-rooms/">Rooms</Link>
 
-      <Link className="navbar-item" to="/preschool/">Preschool</Link>
+      <Link className="navbar-item" to="/gawler-preschool/">Preschool</Link>
 
-      <Link className="navbar-item" to="/faqs/">FAQs</Link>
+      <Link className="navbar-item" to="/frequently-asked-questions-about-gawler-childcare/">FAQs</Link>
 
-      <Link className="navbar-item" to="/contact/">Contact</Link>
+      <Link className="navbar-item" to="/contact-the-gawler-childcare-and-preschool/">Contact</Link>
   </div>
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
-            <Link className="button is-primary" to="/book-a-tour/">Book A Tour</Link>
+            <Link className="button is-primary" to="/book-a-tour-of-the-gawler-childcare/">Book A Tour</Link>
 
               
               <a className="button is-primary" href="tel:08 85222079">

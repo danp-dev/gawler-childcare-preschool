@@ -49,7 +49,7 @@ The centre will also provide CAFHS Health Checks, visits to the Gawler East Prim
 Our Preschool Program (15 hours p/week) is at no extra charge as it is included in the child's daily childcare fee. 
 
 </p>
-<Link to="/book-a-tour/" className="button is-primary" >Book A Tour Of The Gawler Preschool</Link>
+<Link to="/book-a-tour-of-the-gawler-childcare/" className="button is-primary" >Book A Tour Of The Gawler Preschool</Link>
                   </div>
                   <div className="column">
                     <figure className="image">
@@ -62,12 +62,6 @@ Our Preschool Program (15 hours p/week) is at no extra charge as it is included 
                        <Img className="py-3 px-3" fluid={data.preschoolImage.childImageSharp.fluid} align="right"/>
                       </figure>
 
-                    
-
-
-
-
-               
                </div>
             </div>
             </div>
