@@ -14,7 +14,7 @@ import tempimage from "../images/gatsby-astronaut.png"
 
 const IndexPage = ({data}) => (
   <Layout>
-    <SEO title="Gawler Community Child Care and Preschool Centre"/>
+    <SEO title="Gawler Community Child Care and Preschool Centre" description="The Gawler Childcare and Preschool centre offers a dynamic and respectful education and care service to children from birth to 5 years old."/>
     
     <section className="section  is-hidden-touch has-header-image-background">
     

@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Gawler Community Childcare and Preschool`,
     description: `Gawler Community Childcare and Preschool offers all children a dynamic learning system.`,
-    author: `@gatsbyjs`,
+    author: `@danpdev`,
     siteUrl: `https://www.gawlerchildcare.com.au`,
   },
   plugins: [
