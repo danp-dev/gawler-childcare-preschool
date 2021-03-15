@@ -49,7 +49,7 @@ return(
                     <div className="content">
                         <h3 className="is-size-4">What hours are the centre open?</h3>
                         <p>We are open from Monday to Friday
-                            6:15am to 6:15pm.
+                            6:45am to 6:15pm.
                             * The centre is closed for 2 weeks at the end of the year.  This provides families with an opportunity to spend time with their child and ensure that our Educator’s wellbeing is maintained *
                         </p>
                     </div>

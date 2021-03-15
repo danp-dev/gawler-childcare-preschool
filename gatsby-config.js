@@ -3,6 +3,7 @@ module.exports = {
     title: `Gawler Community Childcare and Preschool`,
     description: `Gawler Community Childcare and Preschool offers all children a dynamic learning system.`,
     author: `@gatsbyjs`,
+    siteUrl: `https://www.gawlerchildcare.com.au`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,`gatsby-plugin-sass`,
@@ -15,6 +16,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
