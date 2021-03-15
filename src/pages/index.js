@@ -87,7 +87,7 @@ const IndexPage = ({data}) => (
           Nursery
       </h1>
       <h3 className="subtitle is-size-5">
-        6 weeks to 2 years
+        Birth to 2 years
       </h3>
       </div>
   </div>
@@ -102,7 +102,7 @@ const IndexPage = ({data}) => (
         Toddlers
     </h1>
     <h3 className="subtitle is-size-5">
-        2 to 4 years
+        2 to 3 years
       </h3>
     </div>
 </div>
@@ -117,7 +117,7 @@ const IndexPage = ({data}) => (
       Kindy
   </h1>
   <h3 className="subtitle is-size-5">
-        4 to 6 years
+        3 to 4 years
       </h3>
   </div>
 </div>
@@ -216,7 +216,7 @@ const IndexPage = ({data}) => (
               </div>
               <div class="column is-one-third-desktop has-text-centered">
               
-              <Link to="/book-a-tour-of-the-gawler-childcare/" className="button is-primary">Book A Tour</Link>
+              <Link to="/book-a-tour-of-the-gawler-childcare/" className="button is-light is-outlined">Book A Tour</Link>
             
               </div>
               </div>
@@ -224,7 +224,7 @@ const IndexPage = ({data}) => (
     </section>
 
     <div className="container has-text-centered pt-6">
-          <h1 className="title is-size-2">Request A Tour</h1>
+          <h1 className="title is-size-2">Book A Tour</h1>
           <h3 className="title is-size-4">We just need a little information to get you booked in.</h3>
         </div>
 

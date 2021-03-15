@@ -49,12 +49,12 @@ return(
                     <div className="content">
                         <h3 className="is-size-4">What hours are the centre open?</h3>
                         <p>We are open from Monday to Friday
-                            6:45am to 6:15pm.
+                            6:45 am to 6:15 pm.
                             * The centre is closed for 2 weeks at the end of the year.  This provides families with an opportunity to spend time with their child and ensure that our Educator’s wellbeing is maintained *
                         </p>
                     </div>
                     <div className="content">
-                        <h3 className="is-size-4">What National Qualiy Standards Assessment and Rating does the centre hold?</h3>
+                        <h3 className="is-size-4">What National Quality Standards Assessment and Rating does the centre hold?</h3>
                         <p>We are pleased to let you know that we are exceeding in all 7 National Quality Standards
                         </p>
                     </div>
