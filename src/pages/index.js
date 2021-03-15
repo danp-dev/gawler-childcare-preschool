@@ -117,7 +117,7 @@ const IndexPage = ({data}) => (
       Kindy
   </h1>
   <h3 className="subtitle is-size-5">
-        3 to 4 years
+        3 years +
       </h3>
   </div>
 </div>
