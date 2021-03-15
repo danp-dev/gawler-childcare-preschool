@@ -216,7 +216,7 @@ const IndexPage = ({data}) => (
               </div>
               <div class="column is-one-third-desktop has-text-centered">
               
-              <Link to="/book-a-tour-of-the-gawler-childcare/" className="button is-primary">More About The Centre</Link>
+              <Link to="/book-a-tour-of-the-gawler-childcare/" className="button is-primary">Book A Tour</Link>
             
               </div>
               </div>
