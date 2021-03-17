@@ -56,7 +56,7 @@ return(
                                 <h3 className="subtitle is-6">2 to 4 Years</h3>
                     </div>
                     <div className="column is-6">
-                        <p>Children between 2 and 4 years enjoy the toddler area and enjoy challenging activities to stimulate each child’s developmental needs. Our toddler room is a dynamic, fun filled learning environment which nurtures our children’s emerging self identity and guides them to develop independence, resilience and self-help skills which promotes lifelong learning.
+                        <p>Children between 2 and 4 years enjoy the toddler area and enjoy challenging activities to stimulate each child’s developmental needs.
                         Our toddler room is a dynamic, fun filled learning environment which nurtures our children’s emerging self identity ad guides them to develop independence, resilience and self help skills.
 We are an energetic, creative room allowing for self-discover and exploratory skills to investigate the world we live in.
                         </p>
