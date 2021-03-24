@@ -102,9 +102,9 @@ Our trusted and dedicated teach of professional Educators are nurturing and resp
                     </div>
                     <div className="column is-6">
                         <p>
-                        Our Toddler Room is a dynamic, fun-filled learning environment which nurtures all children's emerging self identities. It is a space where children learn at their own pace and explore new challenges. Our room is an energetic and creative room allowing for self-discovery and exploratory skills to investigate the world we live in. 
-Our trusted and dedicated teach of professional Educators are nurturing and respectful and strongly believe that relationships are built by trust, respect and excellent communication skills. 
-</p>
+                        Our Preschool program is headed by a University Qualified Teacher. The Preschool program is for 15 hours per week and offered to children who are enrolled in childcare. There is no additional charge for your child to participate as this is included in the daily fee. All children are eligible should they turn four before 1st May. Preschool offers Aboriginal and Torres Strait Islander children access to the program from three years of age. 
+We believe that every child has the right to belong and to be included. We value each child, knowing we are all different. Our Teacher will work closely with children and take time to listen to their voices as we respect each other's opinions. 
+                        </p>
                     </div>
                 </div>
                 </div>
