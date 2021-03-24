@@ -19,7 +19,7 @@ return(
 <Layout>
     <SEO title="Gawler Childcare and Preschool Rooms" />
     <div>
-    <Pagetitle pagetitle="Gawler Childcare and Preschool Rooms" pagesubtitle="From the nursery to our preschool, we care for children from 6 weeks to 4 years."/>
+    <Pagetitle pagetitle="Gawler Childcare and Preschool Rooms" pagesubtitle="From the nursery to our preschool, we care for children from birth to 6 years."/>
 
         <section className="section is-small has-background-link-light">
             <div className="container">
@@ -56,9 +56,9 @@ return(
                                 <h3 className="subtitle is-6">2 to 4 Years</h3>
                     </div>
                     <div className="column is-6">
-                        <p>Children between 2 and 4 years enjoy the toddler area and enjoy challenging activities to stimulate each child’s developmental needs.
-                        Our toddler room is a dynamic, fun filled learning environment which nurtures our children’s emerging self identity ad guides them to develop independence, resilience and self help skills.
-We are an energetic, creative room allowing for self-discover and exploratory skills to investigate the world we live in.
+                        <p>
+                        Our Toddler Room is a dynamic, fun-filled learning environment which nurtures all children's emerging self identities. It is a space where children learn at their own pace and explore new challenges. Our room is an energetic and creative room allowing for self-discovery and exploratory skills to investigate the world we live in. 
+Our trusted and dedicated teach of professional Educators are nurturing and respectful and strongly believe that relationships are built by trust, respect and excellent communication skills. 
                         </p>
                     </div>
                 </div>
@@ -79,8 +79,8 @@ We are an energetic, creative room allowing for self-discover and exploratory sk
                                 <h3 className="subtitle is-6">3 to 6 Years</h3>
                     </div>
                     <div className="column is-6">
-                        <p>Children between 3 - 6 years enjoy the Kindy room. We aspire to provide a stimulating and nurturing environment where our children can learn through play. Educators will support and scaffold the children’s emerging skills in a way which will help children become lifelong learners.
-                        Our Educators will support and scaffold children’s emerging skills and spontaneous interest in a way which will help children become life long learners.  We support and guide children in their social and autonomy development, encouraging self help skills, high self-esteem and assist them to develop a strong sense of wellbeing in readiness for school. The emphasis in our room is for our children to have fun, feel safe and secure and to form strong relationships within the room 
+                        <p>
+                        We aspire to provide a stimulating and nurturing environment where all children can learn through play. Our educators will support and scaffold a child's emerging skills in a way which will help them to become life-long learners. Our Educators understand how to support children in their social and autonomy development. Educators do this by assisting them to develop a strong sense of wellbeing in readiness for school. The emphasis in our room is for each child to have fun, feel safe and secure and form trusting relationships within the room. 
                         </p>
                     </div>
                 </div>
@@ -101,13 +101,9 @@ We are an energetic, creative room allowing for self-discover and exploratory sk
                                 <h3 className="subtitle is-6">4 years +</h3>
                     </div>
                     <div className="column is-6">
-                        <p>Available for all children in the year before full-time school.
-Preschool offers Aboriginal and Torres Strait Islander children access from three years of age.
-Our Preschool program is offered to children who are enrolled in our childcare centre which is delivered by a University Qualified Teacher.
-If your child is turning 4 years of age (or turning 4 before the 1st of May) they are eligible to access our preschool program of  up to 15 hours per week.  
-There is no additional charge on top of your childcare fees for preschool. 
-We believe that every child has the right to belong and to be included. We value each child, knowing we are all different.  Teachers work closely with children in order to build and maintain trusting relationships.  
-We take time to listen to children’s and peers voices as we respect each other and our different opinions. 
+                        <p>
+                        Our Toddler Room is a dynamic, fun-filled learning environment which nurtures all children's emerging self identities. It is a space where children learn at their own pace and explore new challenges. Our room is an energetic and creative room allowing for self-discovery and exploratory skills to investigate the world we live in. 
+Our trusted and dedicated teach of professional Educators are nurturing and respectful and strongly believe that relationships are built by trust, respect and excellent communication skills. 
 </p>
                     </div>
                 </div>

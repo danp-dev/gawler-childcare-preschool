@@ -30,9 +30,15 @@ return(
             <div className="columns">
                 <div className="column">
                     <div className="content">
-                        <h3 className="is-size-4">How much are the fees?</h3>
-                        <p>Depending on your personal situation, you may be eligble for a subsidy.
-                            This depends on your current situation.
+                        <h3 className="is-size-4">What is included in our fees?</h3>
+                        <p>
+                        <ul>
+                        <li>We provide morning tea that includes fresh fruit, crackers and cheese.</li> 
+                        <li>Lunch is a choice of two home cooked meals made fresh from our kitchen</li>
+                        <li>Afternoon tea is provided ranging from freshly baked scones, muffins and banana bread, to name a few.</li>
+                        <li>A snack is also offered later in the day</li>
+                        <li>We provide nappies for all rooms as well as 50+ sensitive sunscreen</li>
+                        </ul>
                         </p>
                     </div>
                     <div className="content">
@@ -43,7 +49,13 @@ return(
                     </div>
                     <div className="content">
                         <h3 className="is-size-4">What do I need to pack for my child?</h3>
-                        <p>Your child’s hat, your child’s items named, bottles, formula and comforter.
+                        <p>
+                        <ul>
+                        <li>A broad brimmed hat</li> 
+                        <li>Children's bottles, formulas and comforters</li>
+                        <li>Several changes of clothes</li>
+                        <li>We request that all personal items are named</li>
+                        </ul>
                         </p>
                     </div>
                     <div className="content">
